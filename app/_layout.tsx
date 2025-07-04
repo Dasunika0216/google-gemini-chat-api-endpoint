@@ -1,10 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native';
 import HomeScreen from './Pages/HomeScreen';
+import { NavigationContainer } from '@react-navigation/native';
+import HomeScreenNavigation from './Navigation/HomeScreenNavigation'
 
 export default function RootLayout() {
   return (
     <View style={styles.container}>
-      <HomeScreen />
+        <HomeScreenNavigation />
     </View>
   );
 }

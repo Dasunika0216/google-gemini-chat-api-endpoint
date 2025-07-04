@@ -37,7 +37,7 @@ export default function HomeScreen() {
       </View>
 
       <TouchableOpacity style={[{backgroundColor:selectedChatFaceData.primary}, {padding:17, width:Dimensions.get('screen').width*0.6, borderRadius:100, alignItems:'center', marginTop:30}]}>
-        <Text style={{fontSize:16, color:'#fff'}}>Let's Chat</Text>
+        <Text style={{fontSize:16, color:'#fff'}}>Get Started</Text>
       </TouchableOpacity>
     </View>
   )
